@@ -5,9 +5,26 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_avatar_r</sprite>
+    <sprite>sprites\spr_blockh</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\back_tiles</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_block</object>
+    <object>objects\obj_bu_start_game</object>
+    <object>objects\obj_avatar</object>
+    <object>objects\obj_blockh</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_opening</room>
+    <room>rooms\rm_level1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
